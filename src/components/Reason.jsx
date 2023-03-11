@@ -6,7 +6,7 @@ import { Verify } from "iconsax-react";
 const Reason = () => {
   return (
     <div className="bg-darkestGray h-screen w-full">
-      <div className="grid md:grid-cols-2 gap-36 max-w-7xl m-auto pt-[10%] px-6">
+      <div className="grid md:grid-cols-2 gap-36 max-w-7xl m-auto px-6">
         <div>
           <img className="w-full" src={illustration2} alt="/" />
         </div>
