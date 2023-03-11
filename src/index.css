@@ -39,7 +39,7 @@ html {
   }
 
   button {
-    @apply py-3 px-6 bg-normalBlue text-darkestGray font-bold rounded-lg;
+    @apply py-3 px-6 bg-normalBlue text-darkestGray font-bold rounded-lg capitalize;
   }
 
   .text-big {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Navbar, Reason } from "./components";
+import { ForDeveloper, Hero, Navbar, Reason } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Reason />
+      <ForDeveloper />
     </>
   );
 };
