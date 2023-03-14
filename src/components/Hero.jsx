@@ -3,8 +3,11 @@ import { illustration1 } from "../utils";
 
 const Hero = () => {
   return (
-    <div className="bg-darkestGray h-screen w-full flex flex-col justify-between">
-      <div className="grid md:grid-cols-2 gap-5 max-w-7xl m-auto px-6">
+    <div
+      className="bg-darkestGray h-screen w-full flex flex-col justify-between"
+      id="hero"
+    >
+      <div className="grid md:grid-cols-2 md:gap-5 gap-16 max-w-7xl m-auto px-6">
         <div className="flex flex-col justify-center md:items-start w-full">
           <h1 className="text-white text-5xl mb-5">
             Simplify your life using our references

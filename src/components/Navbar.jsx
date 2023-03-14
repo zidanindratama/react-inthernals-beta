@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-[80px] w-screen bg-darkestGray items-center sticky">
+    <div className="h-[80px] w-screen bg-darkestGray items-center fixed">
       <div className="flex justify-between max-w-screen-2xl m-auto px-6 items-center w-full h-full">
         <div className="flex items-center">
           <img src={darkBrandLogo} alt="" className="h-[26px] w-[35px]" />
