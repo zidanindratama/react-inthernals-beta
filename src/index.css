@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold capitalize md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl font-bold capitalize md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl font-bold capitalize md:text-2xl;
+  }
+
+  h4 {
+    @apply text-lg font-bold capitalize md:text-xl;
+  }
+
+  h5 {
+    @apply text-base font-bold capitalize md:text-lg;
+  }
+
+  h6 {
+    @apply text-sm font-bold capitalize md:text-base;
+  }
+
+  p {
+    @apply text-sm md:text-base;
+  }
+
+  button {
+    @apply py-3 px-6 bg-normalBlue text-darkestGray font-bold rounded-lg capitalize;
+  }
+}
+
+.text-big {
+  @apply text-xl font-bold capitalize md:text-5xl;
+}
+
+.text-small {
+  @apply text-xs md:text-sm;
+}
+
+.animation__navbar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
