@@ -4,7 +4,7 @@ import { illustration1 } from "../utils";
 const Hero = () => {
   return (
     <div
-      className="bg-darkestGray h-screen w-full flex flex-col justify-between pt-14 pb-14 md:pb-0"
+      className="bg-darkestGray h-screen w-full flex flex-col justify-between pt-14 pb-14"
       id="hero"
     >
       <div className="grid md:grid-cols-2 md:gap-5 gap-16 max-w-7xl m-auto px-6">
