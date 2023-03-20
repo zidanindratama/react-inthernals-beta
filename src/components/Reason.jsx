@@ -6,7 +6,7 @@ import { RxCheckCircled } from "react-icons/rx";
 
 const Reason = () => {
   return (
-    <section className={`h-screen w-full flex flex-col`}>
+    <section className={`w-full flex flex-col pt-[300px]`} id="reason">
       <div className="m-auto px-6">
         <div className={`${layout.section} md:gap-36 gap-16`}>
           <div className={`${layout.sectionImg}`}>

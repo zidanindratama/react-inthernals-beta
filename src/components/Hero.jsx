@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <section
       className={`flex md:flex-row flex-col items-center m-auto md:pt-[200px] pt-10`}
+      id="hero"
     >
       <div className="flex-1">
         <h1 className="text-white">Simplify your life using our references</h1>

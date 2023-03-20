@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const ForDevelopers = () => {
   return (
-    <section className={`h-screen w-full flex flex-col`}>
+    <section className={`h-screen w-full flex flex-col`} id="developer">
       <div className="m-auto px-6 text-center">
         <h1 className="text-white mb-5 text-center">
           For developers who want to create projects

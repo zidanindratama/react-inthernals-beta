@@ -62,7 +62,7 @@ const Footer = () => {
               href="#hero"
               className="bg-transparent text-normalBlue border border-normalBlue py-1 px-2 rounded-lg"
             >
-              <RxArrowUp />
+              <RxArrowUp size={20} />
             </a>
           </div>
         </div>
