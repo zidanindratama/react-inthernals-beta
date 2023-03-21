@@ -15,7 +15,7 @@ const Hero = () => {
           Gunakan referensi kami secara gratis untuk membuat tugas atau
           pekerjaanmu menjadi lebih mudah dan cepat
         </p>
-        <Button type="button" text="explore" />
+        <Button type="button" text="explore" styles="w-full md:w-max" />
       </div>
       <div className={`md:mt-0 mt-10`}>
         <img
