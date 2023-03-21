@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, Hero, Reason, ForDevelopers, Footer } from "./components";
+import {
+  Navbar,
+  Hero,
+  Reason,
+  ForDevelopers,
+  Footer,
+  ReferenceType,
+} from "./components";
 import styles from "./style";
 
 const App = () => {
@@ -11,6 +18,7 @@ const App = () => {
       <div className={`bg-darkestGray ${styles.flexStart}`}>
         <div className={`${styles.paddingX} ${styles.boxWidth}`}>
           <Hero />
+          <ReferenceType />
           <Reason />
           <ForDevelopers />
           <Footer />

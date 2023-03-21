@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { darkBrandLogo } from "../utils";
 import { navLinks } from "../constants";
 import NavbarLink from "./NavbarLink";
@@ -33,7 +33,7 @@ const Navbar = () => {
           })}
         </ul>
         <div className="md:hidden flex">
-          {isNavOpen ? (
+          {!isNavOpen ? (
             <RxHamburgerMenu
               className="text-white"
               size={20}
@@ -44,7 +44,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      {!isNavOpen && (
+      {isNavOpen && (
         <ul className="md:hidden flex flex-col justify-center items-center animation__navbar">
           {navLinks.map((link, index) => {
             return (

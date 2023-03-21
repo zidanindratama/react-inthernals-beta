@@ -1,5 +1,5 @@
 const styles = {
-  boxNavbar: "max-w-[1840px] w-full m-auto",
+  boxNavbar: "max-w-[1840px] m-auto",
   boxWidth: "max-w-7xl w-full",
 
   flexCenter: "flex justify-center items-center",

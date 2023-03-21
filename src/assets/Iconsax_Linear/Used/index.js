@@ -1,3 +1,6 @@
-import menu from "./menu.svg";
+import archiveBook from "./archive-book.svg";
+import mouseSquare from "./mouse-square.svg";
+import people from "./people.svg";
+import exportIcon from "./export-2.svg";
 
-export { menu };
+export { archiveBook, mouseSquare, people, exportIcon };
